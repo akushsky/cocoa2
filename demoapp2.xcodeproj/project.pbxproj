@@ -11,6 +11,7 @@
 		F70ED225273C03060051FB40 /* demoapp2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70ED21A273C03060051FB40 /* demoapp2.framework */; };
 		F70ED22A273C03060051FB40 /* demoapp2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70ED229273C03060051FB40 /* demoapp2Tests.swift */; };
 		F70ED22B273C03060051FB40 /* demoapp2.h in Headers */ = {isa = PBXBuildFile; fileRef = F70ED21D273C03060051FB40 /* demoapp2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F70ED235273C03A50051FB40 /* demoapp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70ED234273C03A50051FB40 /* demoapp2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		F70ED21E273C03060051FB40 /* demoapp2.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = demoapp2.docc; sourceTree = "<group>"; };
 		F70ED224273C03060051FB40 /* demoapp2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoapp2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F70ED229273C03060051FB40 /* demoapp2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoapp2Tests.swift; sourceTree = "<group>"; };
+		F70ED234273C03A50051FB40 /* demoapp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoapp2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				F70ED21D273C03060051FB40 /* demoapp2.h */,
 				F70ED21E273C03060051FB40 /* demoapp2.docc */,
+				F70ED234273C03A50051FB40 /* demoapp2.swift */,
 			);
 			path = demoapp2;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F70ED21F273C03060051FB40 /* demoapp2.docc in Sources */,
+				F70ED235273C03A50051FB40 /* demoapp2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +400,7 @@
 		F70ED232273C03060051FB40 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -416,6 +421,7 @@
 		F70ED233273C03060051FB40 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
